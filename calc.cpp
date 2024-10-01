@@ -22,7 +22,8 @@ int main() {
     case 3:
         result = a * b; // код для множення
         break;
-    case 4: // код для ділення
+    case 4:  
+        result = a / b; // код для ділення
         break;
     default:
         cout << "Невірний оператор\n";
