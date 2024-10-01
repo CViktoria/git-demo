@@ -19,7 +19,8 @@ int main() {
     case 2:
         result = a - b; // код для віднімання
         break;
-    case 3: // код для множення
+    case 3:
+        result = a * b; // код для множення
         break;
     case 4: // код для ділення
         break;
