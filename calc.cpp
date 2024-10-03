@@ -25,6 +25,9 @@ int main() {
     case 4:  
         result = a / b; // код для ділення
         break;
+    case 5:
+        result = pow(a, b); // піднесення до стпеня
+        break;
     default:
         cout << "Невірний оператор\n";
         break;
